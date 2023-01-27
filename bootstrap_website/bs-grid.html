@@ -14,43 +14,50 @@
   <p class="lead">But its not CSS grid.....</p>
 
   <section class="mt-5">
+
     <header class="bg-primary p-4 text-white">
       <h2>Header</h2>
     </header>
 
     <nav class="bg-success p-4">
       <h2>Nav</h2>
-      <ul class="list-group">
+      <ul class="list-group list-group-horizontal-md">
         <li class="list-group-item">Home</li>
         <li class="list-group-item">About</li>
         <li class="list-group-item">Contact</li>
       </ul>
     </nav>
 
-    <main class="bg-info p-4">
-      <h2 class="display-1">StrapBoot works</h2>
-      <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste autem commodi dolorum ad iusto,
-        ipsa voluptates
-        laudantium quia quasi quos libero, repellendus suscipit nesciunt a molestias numquam animi cupiditate rem?</p>
-    </main>
-
-    <aside class="bg-danger-subtle p-4">
-      <h3>Aside</h3>
-      <form>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-        <button class="btn btn-outline-dark" type="submit">Send</button>
-      </form>
-    </aside>
+    <div class="row">
+      <div class="col-sm-6 col-md-8">
+        <main class="bg-info p-4 h-100">
+          <h2 class="display-3">StrapBoot works</h2>
+          <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste autem commodi dolorum ad iusto,
+            ipsa voluptates
+            laudantium quia quasi quos libero, repellendus suscipit nesciunt a molestias numquam animi cupiditate rem?
+          </p>
+        </main>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <aside class="bg-danger-subtle p-4 h-100">
+          <h3>Aside</h3>
+          <form>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button class="btn btn-outline-dark" type="submit">Send</button>
+          </form>
+        </aside>
+      </div>
+    </div><!-- /row -->
 
     <footer class="bg-dark p-4 text-bg-dark text-center">
-      Viskas saugoma 2023
+      Viskas saugoma <span class="lead">&lt;2023&gt;</span> &copy;
     </footer>
   </section>
 
