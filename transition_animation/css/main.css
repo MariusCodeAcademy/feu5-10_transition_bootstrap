@@ -35,12 +35,19 @@ h2 {
   /* pastumia zemyn */
   transform: translateY(100px);
 }
+
+.title {
+  transform: translateY(1em);
+}
+
 /* kai uzvedam peyte and article, rodom jo viduje esanti .text elementa */
 article:hover .text {
   display: block;
   opacity: 1;
   transform: translateY(0);
 }
+
+/* parasyti taisykle kad uzvedus pelyte ant article, viduje esantis title sugryztu i savo vieta (transform: translateY(0)) */
 
 article:hover {
   transform: scale(1.2);
