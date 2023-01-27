@@ -58,3 +58,15 @@ article:hover .title {
 article:hover {
   transform: scale(1.2);
 }
+/* simple example */
+.box {
+  padding: 3rem 2rem;
+  background-color: tomato;
+  width: 15rem;
+  transition: width 500ms, background-color 2s;
+  /* transition: all 2s; bad practice, lazy programers */
+}
+.box:hover {
+  width: 25rem;
+  background-color: blueviolet;
+}
