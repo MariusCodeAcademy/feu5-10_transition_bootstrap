@@ -43,7 +43,7 @@ a {
 
 /* common rules */
 .container {
-  padding-left: 2rem;
+  padding-left: 4rem;
   padding-right: 2rem;
   /* apridboti tik maximalu ploti */
   max-width: 80rem;
